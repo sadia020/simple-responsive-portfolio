@@ -1,0 +1,61 @@
+@media(max-width:480px){
+    .container{
+        width: 90%;
+        padding: 0 20px;
+    }
+    nav{
+       padding-top: 20px; 
+    }
+    .logo img{
+        width: 150px;
+        height: auto;
+    }
+    .menuBar{
+        display: none;
+    }
+    .faBar{
+        display: block;
+    }
+    .Banner{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .image img{
+        width:350px;
+        height: auto;
+    }
+    .aboutFlex{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .sofwareWeb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.skillsFlex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.parcentage{
+    background: #171717;
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+.textareaBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 350px;
+    
+
+}
+}
