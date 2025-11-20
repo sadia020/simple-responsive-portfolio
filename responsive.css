@@ -1,4 +1,84 @@
-@media(max-width:480px){
+@media(min-width:1281px){
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+
+}
+
+/* ********************** */
+@media(max-width:1024px){
+    .container{
+        width: 95%;
+        padding: 0 15px;
+    }
+    nav{
+       padding-top: 15px; 
+    }
+    .logo img{
+        width: 150px;
+        height: auto;
+    }
+    .menuBar{
+        display: block;
+    }
+    .faBar{
+        display: none;
+    }
+    .Banner{
+        display: flex;
+        /* flex-direction: column; */
+        gap: 25px;
+    }
+    .image img{
+        width:250px;
+        height: auto;
+    }
+    .aboutFlex{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .About p{
+    width: 600px; 
+    /* top: 984px; */
+    margin: 0 auto;
+    font-size: 18px;
+    }
+    .sofwareWeb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.skillsFlex{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+.parcentage{
+    background: #171717;
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+.textareaBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 350px;
+}
+input{
+    width: 160px;
+}
+}
+
+/* **************** */
+
+@media(max-width:768px){
     .container{
         width: 90%;
         padding: 0 20px;
@@ -11,10 +91,10 @@
         height: auto;
     }
     .menuBar{
-        display: none;
+        display: block;
     }
     .faBar{
-        display: block;
+        display: none;
     }
     .Banner{
         display: flex;
@@ -30,6 +110,12 @@
         flex-direction: column;
         gap: 30px;
         align-items: center;
+    }
+    .About p{
+    width: 500px; 
+    /* top: 984px; */
+    margin: 0 auto;
+    font-size: 18px;
     }
     .sofwareWeb{
     display: flex;
@@ -55,7 +141,78 @@
 }
 textarea{
     width: 350px;
-    
+}
+input{
+    width: 160px;
+}
+}
 
+
+@media(max-width:480px){
+    .container{
+        width: 90%;
+        padding: 0 20px;
+    }
+    nav{
+       padding-top: 20px; 
+    }
+    .logo img{
+        width: 150px;
+        height: auto;
+    }
+    .menuBar{
+        display: none;
+    }
+    .faBar{
+        display: block;
+    }
+    .Banner{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .image img{
+        width:350px;
+        height: auto; 
+    }
+    .aboutFlex{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .About p{
+    width: 300px; 
+    /* top: 984px; */
+    margin: 0 auto;
+    font-size: 18px;
+    }
+    .sofwareWeb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.skillsFlex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.parcentage{
+    background: #171717;
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+.textareaBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 350px;
+}
+input{
+    width: 160px;
 }
 }

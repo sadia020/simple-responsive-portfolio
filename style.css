@@ -10,12 +10,10 @@ body{
 }
 
 /* common css start  */
-
 .container{
     max-width: 1280px;
     margin: 0 auto;
 }
-
 /* common css start  */
 
 /* nav  */
@@ -29,7 +27,7 @@ body{
 .menuShow{
     display: none;
 }
-nav{
+nav {
     padding: 20px 0px;
 }
 
@@ -37,16 +35,13 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-
 .menu{
     display: flex;
     gap: 60px;
 }
-
 .menu li {
     list-style: none;
 }
-
 .menu li a{
     color: white;
     text-decoration: none;
@@ -67,7 +62,6 @@ a{
     display: flex;
     justify-content: space-between;
 }
-
 /* Banner part */
 .Banner{
     display: flex;
@@ -86,7 +80,8 @@ a{
 }
 .image img{
     height: 650px;
-    width: 650px;
+    /* width: 650px; */
+    max-width: 100%;
     border-radius: 100%;
 }
 .banBtn{
@@ -104,8 +99,7 @@ a{
     background-color: transparent;
     color: white;
     width: 143px;
-    height: 42px; 
-    
+    height: 42px;    
 }
 button{
     border: none;
@@ -116,27 +110,20 @@ button{
 }
 .About p{
     max-width: 745px; 
-    top: 984px;
+    /* top: 984px; */
     margin: 0 auto;
-    font-size: 18px;
-   
+    font-size: 18px;  
 }
 
 /* Circle part */
 .card{
-    /* display: flex
-    justify-content: center;
-    flex-direction: column;
-    gap: 5px; */
     width: 175px;
     height: 150px;
-    /* background-color: rgb(93, 121, 112); */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;   
 }
-
 .circle{
     width: 62px;
     height: 62px;
@@ -146,22 +133,18 @@ button{
     justify-content: center;
     align-items: center;
 }
-
 h3{
     margin: 0;
 }
-
 h5{
     margin: 0;
 }
-
 .circle div{
     width: 12px;
     height: 12px;
     background-color: #27AE60;
     border-radius: 100%;
 }
-
 .mr{
     text-align: center;
 }
@@ -182,12 +165,10 @@ h5{
 .vector{
     width: 350px;
     height: 240px; 
-    background-color: #212121;
-    
+    background-color: #212121;   
 }
 .vector div{
     padding: 35px 50px;
-
 }
 
 /* My Skills */
@@ -204,7 +185,6 @@ h5{
     align-items: center; 
 }
 .skillsFlex{
-   /* flex-direction: column;    */
    display: flex;  
    justify-content: center;
    gap: 121px;
@@ -215,22 +195,38 @@ h5{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  
+  justify-content: center; 
 }
 .parcentage h3{
     font-size: 72px;
-    color: #4f4f4f;
-    
+    color: #4f4f4f;    
 }
 .parcentage P{
     font-size: 24px;
     color: #27AE60;
     margin: 0;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
-
+.fiftyParcent{
+    display: flex !important;
+    gap: 20px;
+    flex-direction: row !important;
+}
+.twentyParcent{
+    display: flex !important;
+    gap: 20px;
+    flex-direction: row !important;
+}
+.tenParcent{
+    display: flex !important;
+    gap: 20px;
+    flex-direction: row !important;
+}
+.twoParcent{
+    display: flex !important;
+    gap: 20px;
+    flex-direction: row !important;
+}
 
 /* Get in touch */
 section{
@@ -256,7 +252,7 @@ h2{
       background-color: transparent;
       border: 1px solid #2e2e2e;
       border-radius: 4px;
-      max-width: 355px;
+      width: 355px;
       font-size: 14px;
       
     }
@@ -268,13 +264,6 @@ textarea{
     background-color: #171717;
 
     }
-/* button{
-    background-color:#27AE60;
-    color: white;
-    width: 143px;
-    height: 42px;
-    padding: 10px 25px;
-} */
 
 .btn-container {
       text-align: center;
@@ -308,4 +297,11 @@ textarea{
 }
 .Email{
     padding-top: 40px;
+}
+.Error{
+    text-align: center;
+    padding: 40px 0;
+    color: red;
+    font-size: 24px;
+
 }

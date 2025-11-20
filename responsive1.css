@@ -1,0 +1,79 @@
+@media(max-width:1180px){
+    .container{
+        /* width: 100%;
+        padding: 0 20px; */
+        width: 90%;
+        padding:min (5em, 8%);
+
+    }
+    nav{
+       /* padding-top: 20px;  */
+        opacity: 0;
+        pointer-events: none;
+    }
+    .logo img{
+        /* width: 150px;
+        height: auto; */
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 1/1 ;
+        object-fit: cover;
+        background: red;
+
+    }
+    .menuBar{
+        /* display: none; */
+        position: absolute;
+        right: -16em;
+        transition: right 200ms ease-in-out;
+    }
+    .faBar{
+        /* display: block; */
+        right: 0;
+    }
+    .Banner{
+        display: flex;
+        /* flex-direction: column; */
+        gap: 40px;
+    }
+    .image img{
+        /* width:350px;
+        height: auto; */
+         max-width: 100%;
+        height: auto;
+        aspect-ratio: 1/1 ;
+        object-fit: cover;
+        background: red;
+    }
+    .aboutFlex{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .sofwareWeb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.skillsFlex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.parcentage{
+    background: #171717;
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+.textareaBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 550px;
+}
+}
